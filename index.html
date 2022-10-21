@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur e Aline</title>
+    <link rel="shortcut icon" href="Mideas/Imagens/Icone/Icone-aliança.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/media-query.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="JS/scripts.js"></script>
+</head>
+
+
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <img src="Mideas/Imagens/LOGO/Logo.png" alt="Logo-15anos-kauanny">
+
+        <h1>Arthur Careta Morais & Aline Batista Silva</h1>
+
+        <i id="burguer" class="material-symbols-rounded" onclick="clickMenu()">menu</i>
+
+        <menu id="itens">
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="#fest">Cerimônia</a> </li>
+                <li> <a href="#presentes">Lista De Presentes</a> </li>
+                <li> <a href="#confirmar">Confirme Sua Presença</a> </li>
+            </ul>
+        </menu>
+    </header>
+
+    <div id="videoConvite">
+        <video width="720" poster="Mideas/Imagens/tumb.png" controls>
+            <source src="Mideas/video/Amanda E Samuel   Pré Weddin[1].m4v" type="video/m4v">
+            <source src="Mideas/video/Amanda E Samuel   Pré Weddin[1].webm" type="video/webm">
+            <source src="Mideas/video/Amanda e Samuel   Pré Weddin[1].mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="cronometro">
+        <h1>Contagem Regressiva</h1>
+
+        <div class="timer">
+            <div class="cont-timer">
+                <div id="days">00</div>
+                <span>Dias</span>
+            </div>
+
+            <div class="cont-timer">
+                <div id="hours">00</div>
+                <span>Horas</span>
+            </div>
+
+            <div class="cont-timer">
+                <div id="minutes">00</div>
+                <span>Minutos</span>
+            </div class="cont-timer">
+
+            <div class="cont-timer">
+                <div id="seconds">00</div>
+                <span>Segundos</span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <article id="festa">
+
+
+            <p>
+                Criamos esse site para compartilhar com vocês os detalhes da organização do nosso casamento. Estamos
+                muito felizes e contamos com a presença de todos no nosso grande dia!
+            </p>
+
+            <p>
+                Para que tudo seja preparado do melhor modo, é muito importante que confirme sua presença
+                clicando no menu <a href="#confirmar">“Confirme sua Presença”</a>.
+
+            </p>
+
+            <p>
+                Para nos presentear, escolha qualquer item da Lista de Casamento, seja um item de algum dos sites, lojas
+                físicas, ou então vocês podem utilizar a opção de cotas. Fiquem à vontade!
+            </p>
+
+            <p id="chamada">Aguardo vocês nesse grande dia!</p>
+
+
+
+
+            <h1 id="fest">Cerimônia</h1>
+
+
+            <img src="Mideas/Imagens/floral-cerimonia.jpg" alt="Imagem-festa">
+
+            <p>Gostaríamos muito de contar com a presença de todos vocês no momento em que nossa união será abençoada
+                diante de Deus!
+            </p>
+
+            <p>A cerimônia será rápida e tentaremos ser extremamente pontuais. Contamos com vocês!
+            </p>
+
+            <p id="endereco">Dia 12 de Setembro de 2021, às 21h. <br>
+                R. Carlos de Vilhena 3070 - Estação, Franca - SP, 14405-203</p>
+
+            <div class="localizacao">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14946.767055141941!2d-47.3823788!3d-20.5188583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb42c45d2300bb141!2sEspa%C3%A7o%20de%20Eventos%20Flamboyant%20em%20Franca!5e0!3m2!1spt-BR!2sbr!4v1664832254561!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+
+
+            <h1 id="fest">Recpção</h1>
+
+            <img src="Mideas/Imagens/recpção.jpg" alt="Imagem-festa">
+
+            <p>Os noivos convidam para recepção no dia 12 de Setembro de 2021 por volta das 22hrs, no Recanto por do Sol
+                localizado na Rod Tancredo Neves, Recanto Fortuna . Não vai perder, né?
+            </p>
+           
+
+            <div class="localizacao">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14946.767055141941!2d-47.3823788!3d-20.5188583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb42c45d2300bb141!2sEspa%C3%A7o%20de%20Eventos%20Flamboyant%20em%20Franca!5e0!3m2!1spt-BR!2sbr!4v1664832254561!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+
+        </article>
+
+    </main>
+
+    <article id="presentes">
+
+        <h1>Lista De Presentes</h1>
+
+        
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/1.jpg" alt="Acessórios-1">
+            <img src="Mideas/Imagens/Lista de presente/2.jpg" alt="Acessórios-2">
+        </div>
+       
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/3.jpg" alt="Blusa-1">
+            <img src="Mideas/Imagens/Lista de presente/4.jpg" alt="Blusa-2">
+        </div>
+
+        
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/5.jpg" alt="short-1">
+            <img src="Mideas/Imagens/Lista de presente/6.jpg" alt="short-2">
+        </div>
+
+        
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/7.jpg" alt="calça-1">
+            <img src="Mideas/Imagens/Lista de presente/8.jpg" alt="calça-2">
+        </div>
+
+       
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/9.jpg" alt="tenis-1">
+            <img src="Mideas/Imagens/Lista de presente/10.jpg" alt="tenis-2">
+        </div>
+
+        <h2> PIX</h2>
+        <div class="fotos">
+            <img src="Mideas/Imagens/Lista de presente/pix.png" alt="logo-pix">
+            <img src="Mideas/Imagens/Lista de presente/Qr-code.png" alt="qr-code">
+
+        </div>
+    </article>
+
+    <main>
+        <article id="confirmar">
+
+            <h1>Confirme sua Presença</h1>
+
+            <a href="https://wa.me/5516991991565?text=Ol%C3%A1%20Beatris,%20fui%20convidado%20para%20a%20festa%20de%2015%20anos%20da%20Kauanny%20no%20dia%2019/11/2022.%20%0AGostaria%20de%20confirmar%20minha%20presen%C3%A7a."
+                target="_blank"> <img src="Mideas/CONFIMAÇÃO.png" alt="Confimração-de-presença"></a>
+        </article>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
